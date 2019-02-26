@@ -129,7 +129,7 @@ class WoE:
         if df is None:
             return None, None
         # Max buckets num calc
-        self.qnt_num = int(np.minimum(df['X'].unique().size / self._min_block_size, self.__qnt_num)) + 1
+        self.qnt_num = int(np.minimum(df['X'].size / self._min_block_size, self.__qnt_num)) + 1
         # cuts - label num for each observation, bins - quartile thresholds
         bins = None
         cuts = None
