@@ -8,7 +8,7 @@ from sklearn.model_selection import cross_val_score
 __author__ = 'Denis Surzhko'
 
 
-# ver 0.2.2
+# ver 0.2.3
 # merge & _calc_stat bug fixes
 class WoE:
     """
